@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: inherit;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.6rem;
+}
+
+header {
+  background-image: url('./assets/images/hero-background.png');
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%);
+  background-size: cover;
+  color: white;
+  text-align: center;
+
+  h1 {
+    margin: 13rem auto 2.6rem;
+    font-weight: 900;
+    font-size: 6rem;
+    width: 65%;
+  }
+
+  p {
+    width: 60%;
+    margin: auto;
+    font-size: 2.3rem;
+    font-weight: lighter;
+  }
+
+  button {
+    background-color: #2191f9;
+    border-radius: 3.9rem;
+    padding: 1.3rem 5rem;
+    color: white;
+    margin: 7.5rem 18rem 20rem;
+    font-size: 1.7rem;
+    font-weight: lighter;
+  }
+}
+
+nav {
+  display: flex;
+  font-size: 1rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 4rem;
+}
+
+nav li {
+  list-style: none;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 5rem;
+  align-items: center;
+}
+
+.figma-land {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.social-media-logos {
+  display: flex;
+  gap: 2rem;
+}
