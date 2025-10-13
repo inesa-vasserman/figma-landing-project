@@ -44,6 +44,10 @@ header {
   }
 }
 
+.mobile-version-menu {
+  display: none;
+}
+
 nav {
   display: flex;
   font-size: 1rem;
@@ -74,4 +78,81 @@ nav li {
 .social-media-logos {
   display: flex;
   gap: 2rem;
+}
+
+@media (width <= 900px) {
+  .main-menu {
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+  }
+
+  .mobile-version-menu {
+    display: block;
+    transform: scaleX(-1);
+  }
+
+  .hamburger-top-menu {
+    background-color: white;
+    height: 0.2rem;
+    width: 1.8rem;
+    margin: 0.2rem;
+    border-radius: 0.05rem;
+  }
+
+  .hamburger-middle-menu {
+    background-color: white;
+    width: 60%;
+    height: 0.2rem;
+    margin: 0.2rem;
+    border-radius: 0.05rem;
+  }
+
+  .hamburger-bottom-menu {
+    background-color: white;
+    width: 40%;
+    height: 0.2rem;
+    margin: 0.2rem;
+    border-radius: 0.05rem;
+  }
+
+  .social-media-logos {
+    display: none;
+  }
+
+  .desktop-version-menu {
+    display: none;
+  }
+
+  .figma-land {
+    position: unset;
+    width: 40%;
+  }
+
+  header {
+    h1 {
+      margin: 3rem auto 1rem;
+      font-weight: 400;
+      font-size: 2rem;
+    }
+
+    p {
+      margin: auto;
+      font-size: 1rem;
+      font-weight: lighter;
+      width: 40%;
+    }
+
+    button {
+      background-color: #2191f9;
+      border-radius: 3.9rem;
+      padding: 0.6rem 2.5rem;
+      color: white;
+      margin: 2.5rem 5rem 5rem;
+      font-size: 1rem;
+    }
+
+    .second-text-desktop {
+      display: none;
+    }
+  }
 }
