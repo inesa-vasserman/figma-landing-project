@@ -1,112 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/main.css">
-
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="src/main.css" />
+  <title>Figmaland</title>
 </head>
+
 <body>
-    <header>
-        <section class="main-menu">
-        <nav class="desktop-version-menu">
-            <ul>
-                <li>Home</li>
-                <li>Product</li>
-                <li>Pricing</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-        <img class="figma-land" src="src/assets/logos/figma-land.png" alt="figma-logo">
-        <div class="mobile-version-menu">
-            <div class="hamburger-top-menu"></div>
-            <div class="hamburger-middle-menu"></div>
-            <div class="hamburger-bottom-menu"></div>
-        </div>
-        <div class="social-media-logos">
-        <img src="src/assets/logos/ant-design_twitter-outlined.svg" alt="twitter-logo">
-        <img src="src/assets/logos/ant-design_facebook-filled.svg" alt="facebook-logo">
-        <img src="src/assets/logos/ant-design_linkedin-filled.svg" alt="linkedin-logo">
-    </div>
-        </section>
-                    <h1>The best products start with Figma</h1>
-            <p>Most calendars are designed for teams.</p>
-                <p class="second-text-desktop">Slate is designed for freelancers.
-            </p>
-            <button type="submit">Try For Free</button>
-    </header>
-    <main>
-        <section>
-            <h2>Features</h2>
-            <p>Most calendars are designed for teams. 
-                Slate is designed for freelancers
-            </p>
-            <div>
-                <div>
-                    <img>
-                    <h5>OpenType features Variable fonts</h5>
-                    <p>Slate helps you see how many more days you need 
-                        to work to reach your financial goal.
-                    </p>
-                </div>
-                <div>
-                    <img>
-                    <h5>Design with real data</h5>
-                    <p>Slate helps you see how many more days you need 
-                        to work to reach your financial goal.</p>
-                </div>
-                <div>
-                    <img>
-                    <h5>Fastest way to take action</h5>
-                    <p>Slate helps you see how many more days you need 
-                        to work to reach your financial goal.</p>
-                </div>
-                <video></video>
-            </div>
-        </section>
-        <section>
-            <h2></h2>
-            <p></p>
-            <button></button>
-            <img>
-        </section>
-        <section>
-            <img>
-            <p>
+  <header>
+    <section class="main-menu">
+      <nav class="desktop-version-menu">
+        <ul>
+          <li>Home</li>
+          <li>Product</li>
+          <li>Pricing</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
 
-            </p>
-            <h2></h2>
-            <p></p>
-            <form>
-                <button></button>
-            </form>
-        </section>
-        <h2>
+      <img class="figma-land" src="src/assets/logos/figma-land.png" alt="FigmaLand logo" />
 
-        </h2>
-        <p></p>
+      <div class="mobile-version-menu">
+        <div class="hamburger-top-menu"></div>
+        <div class="hamburger-middle-menu"></div>
+        <div class="hamburger-bottom-menu"></div>
+      </div>
+
+      <div class="social-media-logos">
+        <img src="src/assets/logos/ant-design_twitter-outlined.svg" alt="Twitter logo" />
+        <img src="src/assets/logos/ant-design_facebook-filled.svg" alt="Facebook logo" />
+        <img src="src/assets/logos/ant-design_linkedin-filled.svg" alt="LinkedIn logo" />
+      </div>
+    </section>
+
+    <h1>The best products start with Figma</h1>
+    <p>Most calendars are designed for teams.</p>
+    <p class="second-text-desktop">Slate is designed for freelancers.</p>
+    <button class="button-for-trial" type="submit">Try For Free</button>
+  </header>
+
+  <main>
+    <section class="features-section">
+      <h2>Features</h2>
+      <p class="desktop-version-text">Most calendars are designed for teams. Slate is designed for freelancers.</p>
+      <p class="mobile-version-text ">Most calendars are designed for teams. </p>
+
+      <div class="features-grid-information">
+        <video class="mobile-version-text" src="src/assets/images/person-writing.mp4" poster="src/assets/images/person-writing.jpg" controls></video>
+       <svg class="mobile-version-text" width="40" height="40" viewBox="0 0 80 80">
+        <circle cx="40" cy="40" r="40" fill="hsl(209deg 100% 62%)" />
+        <polygon points="33,25 55,40 33,55" fill="white" />
+      </svg>
         <div>
-        <img>
-        <img>
-        <img>
-        <img>
-        <img>
-        <img>
-        <img>
-        <img>
+          <img src="src/assets/icons/mdi_drawing.svg" alt="OpenType features icon" />
+          <h4>OpenType features <br />Variable fonts</h4>
+          <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
         </div>
-        <button></button>
 
-        <section>
-            <h2></h2>
-            <img>
-            <p></p>
-            <div></div>
-            <button></button>
-        </section>
-    </main>
-    <footer></footer>
+        <div>
+          <img src="src/assets/icons/mdi_draw.svg" alt="Design with real data icon" />
+          <h4>Design with real data</h4>
+          <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+        </div>
+
+        <div>
+          <img src="src/assets/icons/mdi_brush.svg" alt="Fastest way to take action icon" />
+          <h4>Fastest way to take action</h4>
+          <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+        </div>
+      </div>
+
+      <video class="desktop-version-text" src="src/assets/images/person-writing.mp4" poster="src/assets/images/person-writing.jpg" controls></video>
+
+      <svg class="desktop-version-text" width="80" height="80" viewBox="0 0 80 80">
+        <circle cx="40" cy="40" r="40" fill="hsl(209deg 100% 62%)" />
+        <polygon points="33,25 55,40 33,55" fill="white" />
+      </svg>
+    </section>
+
+    <section class="mini-section">
+      <h2>Fastest way to organize</h2>
+       <p class="desktop-version-text">Most calendars are designed for teams. <br>Slate is designed for freelancers.</p>
+      <p class="mobile-version-text ">Most calendars are designed for teams. </p>
+      
+      <button type="submit">Try For Free</button>
+      <img src="src/assets/images/macbook-pro.png" alt="Laptop image" />
+    </section>
+
+    <section class="lighting-fast-protoyping">
+      <img class="desktop-version-text" src="src/assets/images/undraw_newsletter_vovu.svg" alt="Man with envelopes" />
+      <div class="section-introduction">
+        <p class="bold-text">At your fingertips</p>
+        <h2 class="desktop-version-text">Lightning fast <br> prototyping</h2>
+        <h2 class="mobile-version-text">Newsletter</h2>
+
+        <p class="mobile-version-text">Most calendars are designed for teams. Slate is designed for freelancers.</p>
+        <img class="mobile-version-text" src="src/assets/images/undraw_newsletter_vovu.svg" alt="Man with envelopes" />
+      </div>
+
+      <p class="figmaland-availability figmaland-availability-text">
+        <b>Subscribe to our Newsletter</b><br/>
+        Available exclusively on Figmaland
+      </p>
+
+      <form>
+        <input type="email" placeholder="Your Email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+    <section class="partners">
+        <h2>Partners</h2>
+        <p>Most calendars are designed for teams. Slate is designed for freelancers.</p>
+        <div class="parnters-logo">
+            <div>
+                <p>Client Name</p>
+                <img src="src/assets/logos/google.png" alt="google">
+            </div>
+            <div>
+                <p>Client Name</p>
+                <img src="src/assets/logos/amazon.png" alt="amazon">
+            </div>
+            <div>
+                <p>Client Name</p>
+                <img src="src/assets/logos/microsoft.png" alt="microsoft">
+            </div>
+            <div class="desktop-version-text">
+                <p>Client Name</p>
+                <img src="src/assets/logos/uber.png" alt="uber">
+            </div>
+            <div class="desktop-version-text">
+                <p>Client Name</p>
+                <img src="src/assets/logos/dropbox.png" alt="dropbox">
+            </div>
+            <div class="desktop-version-text">
+                <p>Client Name</p>
+                <img src="src/assets/logos/google.png" alt="google">
+            </div>
+            <div class="desktop-version-text">
+                <p>Client Name</p>
+                <img src="src/assets/logos/uber.png" alt="uber">
+            </div>
+            <div class="desktop-version-text">
+                <p>Client Name</p>
+                <img src="src/assets/logos/amazon.png" alt="amazon">
+            </div>
+        </div class="desktop-version-text">
+        <button class="button-for-trial" type="submit">Try For Free</button>
+    </section>
+    <section class="testimonials">
+        <h2>Testimonials</h2>
+        <img src="src/assets/logos/ibm.png" alt="ibm">
+        <p>Most calendars are designed for teams. Slate is designed for freelancers who wanta simple way to plan their schedule.</p>
+
+    <div class="icon-person">
+        <img src="src/assets/images/avatar.png" alt="photo of a man">
+        <p>Organize across <br> Ui designer</p>
+    </div>
+    <button class="button-for-trial" type="submit">More Testimonials</button>
+    </section>
+  </main>
+
+  <footer></footer>
 </body>
 </html>
